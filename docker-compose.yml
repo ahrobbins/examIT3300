@@ -1,0 +1,11 @@
+exam:
+  build: ubuntu/.
+  ports: 
+   - "8383:80"
+  environment:
+    ENV: DEV
+  links:
+   - mysql
+
+mysql:
+  build: mysql/.
