@@ -6,7 +6,7 @@
  */
 
 //$host       = "localhost";
-$host = "exammysql";
+$host = "mysql";
 $username = "alicia";
 $password = "lock3D*";
 $dbname = "armysql";
